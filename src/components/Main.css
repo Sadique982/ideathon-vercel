@@ -1,0 +1,77 @@
+* {
+    scroll-behavior: smooth;
+    font-family: "Madimi One", sans-serif;
+}
+#home h1 {
+    font-size: 10vw;
+    font-style: italic;
+    background: linear-gradient(-10deg, #ffe8d6 -1.72%, #81b29a 54.05%, #9e2a2b 99.78%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 5s ease-in-out infinite;
+}
+#home h6 {
+    font-size: 1.8vw;
+    font-weight: lighter;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 30%;
+    }
+
+    100% {
+        background-position: 0% 75%;
+    }
+}
+#home span {
+    font-size: 1.4vw;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #b8d3d1;
+}
+
+#home li {
+    list-style: none;
+}
+
+#home li a {
+    color: #b8d3d1;
+    text-decoration: none;
+}
+#home li a img {
+    margin-right: 5px;
+}
+
+#home li a:hover {
+    opacity: .5;
+}
+
+#Event h2 {
+    color: #b8d3d1;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#Event span {
+    font-size: 1.4vw;
+    font-weight: bold;
+    border-radius: 30px;
+    background: #b8d3d1;
+}
+
+#About h2 {
+    color: #b8d3d1;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+#About p {
+    font-size: large;
+    margin-top: 2%;
+    text-align: justify;
+}
