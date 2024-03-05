@@ -1,5 +1,8 @@
 * {
     scroll-behavior: smooth;
+    
+}
+#home, #Event, #About {
     font-family: "Madimi One", sans-serif;
 }
 #home h1 {
@@ -38,6 +41,7 @@
 }
 
 #home li {
+    margin-top: 5%;
     list-style: none;
 }
 
@@ -64,6 +68,10 @@
     border-radius: 30px;
     background: #b8d3d1;
 }
+#Event p {
+    margin-top: 5%;
+    text-align: justify;
+}
 
 #About h2 {
     color: #b8d3d1;
@@ -72,6 +80,25 @@
 }
 #About p {
     font-size: large;
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: justify;
+}
+footer{
+    border-top: 2px solid white;
+}
+footer span {
+    color: #b8d3d1;
+}
+footer p {
+    margin: 2px;
+    font-weight: lighter;
+    text-align: start;
+    padding-left: 40%;
+}
+footer p:hover{
+    opacity: .5;
+}
+footer p a {
+    text-decoration: none;
+    color: grey;
 }

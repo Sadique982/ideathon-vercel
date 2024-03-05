@@ -9,7 +9,7 @@ import contactImage from './images/Contact.png';
 import eventImage from './images/Event.png';
 const Main = () => {
     return (
-        <main className="bg-dark text-white ">
+        <main className="bg-black text-white ">
             <div className="container vh-100 vw-100 text-center" id="home">
                 <h1 className="pt-5">Innøveďa</h1>
                 <h6>&quot;Igniting Innovations, Celebrating Tradition&quot;</h6>
@@ -70,7 +70,22 @@ const Main = () => {
                     CodeChef ADGIPS & ECELL ADGIPS are dynamic communities of tech enthusiasts and entrepreneurship enthusiasts who are committed to promoting creativity and problem-solving. We are revolutionizers and with the power of our ideas intend to bring about a positive change in the world that would make it a better place for everyone to live in. Constantly developing and building ourselves is our motto. Everyone can materialize what they fantasize about, it’s just a matter of opening one’s eyes and putting in the right amount of faith and hard work. Our shared goal is to inspire meaningful impact and innovation, creating a transformative space where technology meets empowerment.
                 </p>
             </div>
-
+            <footer className="text-center bg-black ">
+                <h4>Contact Information</h4>
+                <span>Reach out to us for any inquiries or support.</span><br /><br />
+                <p>Email:&nbsp;
+                    <a href="mailto:ecelladgitm@gmail.com" target="_blank"> ecelladgitm@gmail.com</a>
+                </p>
+                <p>Email:&nbsp; 
+                    <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank"> codechef.adgitm@adgitmdelhi.ac.in</a>
+                </p>
+                <p>Phone:&nbsp;
+                    <a href="tel:9899534496" target="_blank">Khushal Vashisth: 9899534496</a>
+                </p>
+                <p>Phone:&nbsp; 
+                    <a href="tel:9953930377" target="_blank">Mansi Sharma: 9953930377</a>
+                </p>
+            </footer>
         </main>
     )
 };
