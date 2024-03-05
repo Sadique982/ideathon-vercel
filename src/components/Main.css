@@ -95,7 +95,7 @@ footer p {
     text-align: start;
     padding-left: 40%;
 }
-footer p:hover{
+footer p a:hover{
     opacity: .5;
 }
 footer p a {
