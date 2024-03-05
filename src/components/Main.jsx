@@ -36,19 +36,19 @@ const Main = () => {
                         </li>
                         <li class="p-2">
                             <a href="#Timing">
-                                <img src={timeImage} alt="About" />
+                                <img src={timeImage} alt="Timing" />
                                 <p>Timing</p>
                             </a>
                         </li>
                         <li class="p-2">
                             <a href="#FAQ">
-                                <img src={faqImage} alt="About" />
+                                <img src={faqImage} alt="FAQ" />
                                 <p>FAQ</p>
                             </a>
                         </li>
                         <li class="p-2">
                             <a href="#Contact">
-                                <img src={contactImage} alt="About" />
+                                <img src={contactImage} alt="Contact" />
                                 <p>Contact us!</p>
                             </a>
                         </li>
