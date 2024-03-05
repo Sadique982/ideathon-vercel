@@ -23,7 +23,7 @@ const Main = () => {
                             </a>
                         </li>
                         <li class="p-2">
-                            <a href="#Event">
+                            <a href="#About">
                                 <img src={aboutImage} alt="About" />
                                 <p>About us</p>
                             </a>
