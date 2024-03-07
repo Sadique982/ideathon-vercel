@@ -9,20 +9,21 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-bottom: 1px solid white;
 }
 
 main h1 {
     font-size: 20vw;
     font-style: italic;
-    background: linear-gradient(-10deg, #D7263D 10%, #310A31 50%, #58A4B0 10%);
+    background: linear-gradient(-45deg, #58A4B0 10%, #310A31 50%, #D7263D 10%);
     background-size: 200% auto;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: gradient 5s ease-in infinite;
+    animation: gradient 1ms ease-in-out infinite;
 }
 main h6 {
-    font-size: 1.8vw;
+    font-size: 2vw;
     font-weight: lighter;
 }
 
@@ -43,6 +44,7 @@ main h6 {
 main span {
     font-size: 1.4vw;
     font-weight: bold;
+    line-height: 2rem;
     border-radius: 30px;
     background: #58A4B0;
 }
@@ -55,6 +57,7 @@ main li {
 main li a {
     color: #58A4B0;
     text-decoration: none;
+    font-size: larger;
 }
 
 main li a img {
@@ -64,28 +67,35 @@ main li a img {
 main li a:hover {
     opacity: .5;
 }
-#About {
+#Event, #About {
     background: #121212;
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: justify;
+    border-bottom: 1px solid white;
 }
 
-#About h2 {
+#Event h2 ,#About h2 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
     color: transparent;
     font-size: 3.5rem;
     padding-top: 1rem;
 }
-#About p {
+#Event p,#About p {
     text-align: justify;
     margin: 0;
     padding: 2% 20%;
+    
+}
+#Event img {
+    max-width: 70vw;
+    min-width: 60vw;
+    filter: drop-shadow(20px 7px 5px black );
+    object-fit: contain;
 }
 
 footer {
-    border-top: 2px solid white;
     color: whitesmoke
 }
 
