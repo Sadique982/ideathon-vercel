@@ -10,7 +10,7 @@ import eventImage from './images/Event.png';
 const Main = () => {
     return (<>
 
-        <main className="text-white-50 vh-100 vw-100 text-center">
+        <main className="text-white-50 vh-80  text-center">
             <div id="logo">
                 <h1 className="pt-5">Innøveďa</h1>
                 <h6>&quot;Igniting Innovations, Celebrating Tradition&quot;</h6>
@@ -58,9 +58,7 @@ const Main = () => {
             </div>
         </main>
 
-
-
-        <section className=" text-white text-center " id="About">
+        <section className=" text-white text-center vh-100 " id="About">
             <h2>About us</h2>
             <p>
                 CodeChef ADGIPS & ECELL ADGIPS are dynamic communities of tech enthusiasts and entrepreneurship enthusiasts who are committed to promoting creativity and problem solving.

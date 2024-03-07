@@ -86,6 +86,7 @@ section {
     padding-top: 1rem;
 }
 #Event p,#About p {
+    font-size: 1.8rem;
     text-align: justify;
     margin: 0;
     padding: 2% 20%;
