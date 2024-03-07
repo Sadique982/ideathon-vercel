@@ -67,12 +67,15 @@ main li a img {
 main li a:hover {
     opacity: .5;
 }
-#Event, #About {
-    background: #121212;
+section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #121212;
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: justify;
     border-bottom: 1px solid white;
+    text-overflow: ellipsis;
 }
 
 #Event h2 ,#About h2 {
@@ -89,12 +92,20 @@ main li a:hover {
     
 }
 #Event img {
-    max-width: 70vw;
-    min-width: 60vw;
-    filter: drop-shadow(20px 7px 5px black );
-    object-fit: contain;
+    height: 250px;
+    object-fit: cover;
+}
+summary {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #121212;
+    border-bottom: 1px solid white;
 }
 
+.accordion-button:is(.collapsed) {
+    background-color: transparent;
+    box-shadow: none;
+}
 footer {
     color: whitesmoke
 }
