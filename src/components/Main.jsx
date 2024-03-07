@@ -58,9 +58,9 @@ const Main = () => {
             </div>
         </main>
 
-        <section className=" text-white text-center vh-100 " id="About">
+        <section className="text-white text-center vh-100 " id="About">
             <h2>About us</h2>
-            <p>
+            <p className="container">
                 CodeChef ADGIPS & ECELL ADGIPS are dynamic communities of tech enthusiasts and entrepreneurship enthusiasts who are committed to promoting creativity and problem solving.
                 <br /><br />
                 We are revolutionizers and with the power of our ideas intend to bring about a positive change in the world that would make it a better place for everyone to live in. Constantly developing and building ourselves is our motto.
@@ -74,7 +74,7 @@ const Main = () => {
             {/* <div id="ccXecell">
                 <img src={mainImage} alt="CodeChefXEcell" />
             </div> */}
-            <p>
+            <p className="container">
                 Innoveda is a launchpad for startup minded innovators and tech enthusiasts to create disruptive solutions that address real-world problems.
             </p>
             <aside>

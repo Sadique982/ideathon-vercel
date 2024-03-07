@@ -4,7 +4,7 @@
 }
 
 main {
-    background: url('images/suresh-pathirana-CZ0QeVmk12w-unsplash.jpg') no-repeat center; 
+    background: url('images/suresh-pathirana-CZ0QeVmk12w-unsplash.jpg') no-repeat center;
     font-family: "Madimi One", sans-serif;
     display: flex;
     flex-direction: column;
@@ -22,6 +22,7 @@ main h1 {
     color: transparent;
     animation: gradient 1ms ease-in-out infinite;
 }
+
 main h6 {
     font-size: 2vw;
     font-weight: lighter;
@@ -67,6 +68,7 @@ main li a img {
 main li a:hover {
     opacity: .5;
 }
+
 section {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -78,24 +80,42 @@ section {
     text-overflow: ellipsis;
 }
 
-#Event h2 ,#About h2 {
+section h2 {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #fff;
     color: transparent;
     font-size: 3.5rem;
     padding-top: 1rem;
 }
-#Event p,#About p {
-    font-size: 1.8rem;
-    text-align: justify;
-    margin: 0;
-    padding: 2% 20%;
-    
+
+section p {
+    padding: 5% 5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
+
+@media screen and (max-width: 450px) {
+    section p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768) {
+    section p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        max-width: 90%;
+        text-align: justify;
+    }
+}
+
 #Event img {
     height: 250px;
     object-fit: cover;
 }
+
 summary {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -107,6 +127,7 @@ summary {
     background-color: transparent;
     box-shadow: none;
 }
+
 footer {
     color: whitesmoke
 }
