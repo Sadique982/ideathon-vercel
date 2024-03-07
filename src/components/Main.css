@@ -7,6 +7,10 @@ main {
     font-family: "Madimi One", sans-serif;
     padding-top: 4%;
 }
+logo {
+    display: flex;
+    flex-direction: column;
+}
 main h1 {
     font-size: 10vw;
     font-style: italic;
