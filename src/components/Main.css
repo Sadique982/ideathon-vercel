@@ -140,7 +140,11 @@ footer p {
     margin: 2px;
     font-weight: lighter;
     text-align: start;
-    padding-left: 40%;
+}
+footer div {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }
 
 footer p a:hover {
@@ -150,4 +154,5 @@ footer p a:hover {
 footer p a {
     text-decoration: none;
     color: grey;
+    padding-right: 3px;
 }

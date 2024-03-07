@@ -126,18 +126,23 @@ const Main = () => {
         <footer className="text-center bg-black" id="Contact">
             <h4>Contact Information</h4>
             <span>Reach out to us for any inquiries or support.</span><br /><br />
+            <div>
             <p>Email:&nbsp;
                 <a href="mailto:ecelladgitm@gmail.com" target="_blank"> ecelladgitm@gmail.com</a>
-            </p>
-            <p>Email:&nbsp;
-                <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank"> codechef.adgitm@adgitmdelhi.ac.in</a>
             </p>
             <p>Phone:&nbsp;
                 <a href="tel:9899534496" target="_blank">Khushal Vashisth: 9899534496</a>
             </p>
+            </div>
+            <div>
+            <p>Email:&nbsp;
+                <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank"> codechef.adgitm@adgitmdelhi.ac.in</a>
+            </p>
             <p>Phone:&nbsp;
                 <a href="tel:9953930377" target="_blank">Mansi Sharma: 9953930377</a>
             </p>
+            </div>
+            
         </footer>
     </>)
 };
