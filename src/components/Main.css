@@ -20,7 +20,7 @@ main h1 {
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: gradient 1ms ease-in-out infinite;
+    animation: gradient 1ms ease-in infinite;
 }
 
 main h6 {
@@ -58,7 +58,7 @@ main li {
 main li a {
     color: #58A4B0;
     text-decoration: none;
-    font-size: larger;
+    font-size: large;
 }
 
 main li a img {

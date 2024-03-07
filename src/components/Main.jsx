@@ -77,8 +77,89 @@ const Main = () => {
             <p className="container">
                 Innoveda is a launchpad for startup minded innovators and tech enthusiasts to create disruptive solutions that address real-world problems.
             </p>
-            <aside>
+            <aside className="container events text-start" id="Theme">
+                <h2>Theme's</h2>
+                <span className="p-4">Explore innovative solutions under various themes:</span>
 
+                <div class="p-4 row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Healthcare</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Open Innovation</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Sankalp for Smart Villages</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Sustainable Solutions</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Harvesting Innovation</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Community Empowerment</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Industrial Equipment Maintenance</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Fintech Innovation</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h6 class="card-title text-center ">Carbon Footprint Tracking for Businesses</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </aside>
+            <aside id="Rule" className="container text-start mt-3 p-4">
+                <span>Participation Details and Rules</span>
+                <hr />
+                
             </aside>
         </section>
 
@@ -90,7 +171,7 @@ const Main = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="heading1">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                               Question
+                                Question
                             </button>
                         </h2>
                         <div id="collapse1" className="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
@@ -105,7 +186,7 @@ const Main = () => {
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="heading1">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                               Question
+                                Question
                             </button>
                         </h2>
                         <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
@@ -116,7 +197,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                     {/* Add more FAQ items as needed */}
+                    {/* Add more FAQ items as needed */}
                 </div>
             </div>
         </summary>
@@ -127,22 +208,22 @@ const Main = () => {
             <h4>Contact Information</h4>
             <span>Reach out to us for any inquiries or support.</span><br /><br />
             <div>
-            <p>Email:&nbsp;
-                <a href="mailto:ecelladgitm@gmail.com" target="_blank"> ecelladgitm@gmail.com</a>
-            </p>
-            <p>Phone:&nbsp;
-                <a href="tel:9899534496" target="_blank">Khushal Vashisth: 9899534496</a>
-            </p>
+                <p>Email:&nbsp;
+                    <a href="mailto:ecelladgitm@gmail.com" target="_blank"> ecelladgitm@gmail.com</a>
+                </p>
+                <p>Phone:&nbsp;
+                    <a href="tel:9899534496" target="_blank">Khushal Vashisth: 9899534496</a>
+                </p>
             </div>
             <div>
-            <p>Email:&nbsp;
-                <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank"> codechef.adgitm@adgitmdelhi.ac.in</a>
-            </p>
-            <p>Phone:&nbsp;
-                <a href="tel:9953930377" target="_blank">Mansi Sharma: 9953930377</a>
-            </p>
+                <p>Email:&nbsp;
+                    <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank"> codechef.adgitm@adgitmdelhi.ac.in</a>
+                </p>
+                <p>Phone:&nbsp;
+                    <a href="tel:9953930377" target="_blank">Mansi Sharma: 9953930377</a>
+                </p>
             </div>
-            
+
         </footer>
     </>)
 };
