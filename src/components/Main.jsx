@@ -9,13 +9,13 @@ import eventImage from './images/Event.png';
 const Main = () => {
     return (
         <>
-            <main className="bg-black text-white-50 vw-100 text-center">
+            <main className="text-white-50 vh-100 vw-100 text-center">
                     <div id="logo">
                     <h1 className="pt-5">Innøveďa</h1>
                     <h6>&quot;Igniting Innovations, Celebrating Tradition&quot;</h6>
                     <span className="text-dark p-1">March&nbsp;14th</span>
                     </div>
-                    <div>
+                    <div id="nav">
                         <ul class="d-flex justify-content-around mt-3">
                             <li class="p-2">
                                 <a href="#Event">
