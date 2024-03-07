@@ -60,7 +60,7 @@ const Main = () => {
 
 
 
-        <section className=" text-white vh-100 vw-100 text-center " id="About">
+        <section className=" text-white text-center " id="About">
             <h2>About us</h2>
             <p>
                 CodeChef ADGIPS & ECELL ADGIPS are dynamic communities of tech enthusiasts and entrepreneurship enthusiasts who are committed to promoting creativity and problem solving.
@@ -71,7 +71,7 @@ const Main = () => {
             </p>
         </section>
 
-        <section className="text-white text-center vh-100 vw-100" id="Event">
+        <section className="text-white text-center" id="Event">
             <h2>Event</h2>
             {/* <div id="ccXecell">
                 <img src={mainImage} alt="CodeChefXEcell" />
