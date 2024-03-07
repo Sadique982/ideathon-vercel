@@ -2,20 +2,22 @@
     scroll-behavior: smooth;
     
 }
-#home, #Event, #About {
+main {
+    background: url('images/suresh-pathirana-CZ0QeVmk12w-unsplash.jpg') no-repeat center;
     font-family: "Madimi One", sans-serif;
+    padding-top: 4%;
 }
-#home h1 {
+main h1 {
     font-size: 10vw;
     font-style: italic;
-    background: linear-gradient(-10deg, #ffe8d6 -1.72%, #81b29a 54.05%, #9e2a2b 99.78%);
+    background: linear-gradient(-10deg, #D7263D 10%, #310A31 50%, #7C7C7C 10%);
     background-size: 200% auto;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-    animation: gradient 5s ease-in-out infinite;
+    animation: gradient 5s ease-in infinite;
 }
-#home h6 {
+main h6 {
     font-size: 1.8vw;
     font-weight: lighter;
 }
@@ -33,32 +35,32 @@
         background-position: 0% 75%;
     }
 }
-#home span {
+main span {
     font-size: 1.4vw;
     font-weight: bold;
     border-radius: 30px;
-    background: #b8d3d1;
+    background: #7C7C7C;
 }
 
-#home li {
+main li {
     margin-top: 5%;
     list-style: none;
 }
 
-#home li a {
-    color: #b8d3d1;
+main li a {
+    color: #7C7C7C;
     text-decoration: none;
 }
-#home li a img {
+main li a img {
     margin-right: 5px;
 }
 
-#home li a:hover {
+main li a:hover {
     opacity: .5;
 }
 
 #Event h2 {
-    color: #b8d3d1;
+    color: #7C7C7C;
     text-transform: uppercase;
     text-decoration: underline;
 }
@@ -66,7 +68,7 @@
     font-size: 1.4vw;
     font-weight: bold;
     border-radius: 30px;
-    background: #b8d3d1;
+    background: #7C7C7C;
 }
 #Event p {
     margin-top: 5%;
@@ -74,7 +76,7 @@
 }
 
 #About h2 {
-    color: #b8d3d1;
+    color: #7C7C7C;
     text-transform: uppercase;
     text-decoration: underline;
 }
@@ -85,9 +87,10 @@
 }
 footer{
     border-top: 2px solid white;
+    color: whitesmoke
 }
 footer span {
-    color: #b8d3d1;
+    color: #7C7C7C;
 }
 footer p {
     margin: 2px;
