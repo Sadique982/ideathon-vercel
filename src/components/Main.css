@@ -6,6 +6,10 @@ main {
     background: url('images/suresh-pathirana-CZ0QeVmk12w-unsplash.jpg') no-repeat center;
     font-family: "Madimi One", sans-serif;
     padding-top: 4%;
+    height: 100vh;
+    @media (min-height: 650px) {
+        height: 50vh;        
+    }
 }
 logo {
     display: flex;
