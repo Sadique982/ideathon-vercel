@@ -70,7 +70,7 @@ const Main = () => {
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
-                                <h6 class="card-title text-center ">Healthcare</h6>
+                                <h6 class="card-title text-center">Healthcare</h6>
                             </div>
                         </div>
                     </div>
@@ -150,21 +150,18 @@ const Main = () => {
                         <div class="col-7">1-4 members</div>
                     </div>
                     <hr />
-                    <div class="row">
-                        <div class="col-5">Constraint:</div>
-                        <div class="col-7">A partcipant can be part of only 1 team</div>
-                    </div>
+                    <div class="text-center">All ideas must be original.</div>
+                    
                     <hr />
-                    <div class="row">
-                        <div class="col-5">Bonus:</div>
-                        <div class="col-7">Extra Points will be awarded for showcasing the prototype</div>
-                    </div>
+                    <div class="text-center">A partcipant can be part of only one team.</div>
+                    
                     <hr />
-                    <div class="row">
-                        <div class="col-5">Disqualification:</div>
-                        <div class="col-7">Any teams that violate these rules will be automatically disqualified.</div>
-                    </div><hr />
-
+                    <div class="text-center">Extra Points will be awarded for showcasing the prototype.</div>
+                    <hr />
+                    <div class="text-center">Participants are encouraged to leverage technology for impactful solutions.</div>
+                    
+                    <hr />
+                        <h3 class="text-danger text-center">Any teams that violate these rules will be automatically disqualified.</h3>
                 </div>
             </aside>
 

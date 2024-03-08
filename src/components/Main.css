@@ -2,7 +2,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 main {
     background: url('images/bg.jpg') no-repeat center;
     font-family:serif;
@@ -130,6 +129,10 @@ summary {
     padding-bottom: 2%;
     background-color: #121212;
     border-bottom: 1px solid white;
+}
+
+.card .card-body h6 {
+    margin: 2px;
 }
 
 #FAQ .accordion-button:is(.collapsed) {
