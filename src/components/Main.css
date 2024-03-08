@@ -4,8 +4,8 @@
 }
 
 main {
-    background: url('images/suresh-pathirana-CZ0QeVmk12w-unsplash.jpg') no-repeat center;
-    font-family: "Madimi One", sans-serif;
+    background: url('images/bg.jpg') no-repeat center;
+    font-family:serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,7 +15,7 @@ main {
 main h1 {
     font-size: 20vw;
     font-style: italic;
-    background: linear-gradient(-45deg, #58A4B0 10%, #310A31 50%, #D7263D 10%);
+    background: linear-gradient(-30deg, #58A4B0 10%, #310A31 50%, #D7263D 10%);
     background-size: 200% auto;
     background-clip: text;
     -webkit-background-clip: text;
@@ -81,9 +81,7 @@ section {
 }
 
 section h2 {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #fff;
-    color: transparent;
+    color: white;
     font-size: 3.5rem;
     padding-top: 1rem;
 }
@@ -92,6 +90,7 @@ section p {
     padding: 5% 5%;
     font-size: 1.5rem;
     line-height: 2rem;
+    color: #587D71;
 }
 
 @media screen and (max-width: 450px) {
@@ -116,6 +115,21 @@ section p {
     object-fit: cover;
 }
 
+#Evaluation div, #Rule div{
+    color: #587D71;
+}
+#Evaluation #Criteria {
+    margin: 3%;
+    padding: 25px;
+    background-color: #2B242D;
+    border-radius: 10px;
+}
+
+#Theme div>div>div {
+        background-color: #2B242D;
+        border-radius: 10px;
+        color: #587D71;
+    }
 summary {
     padding-top: 2%;
     padding-bottom: 2%;
@@ -123,36 +137,29 @@ summary {
     border-bottom: 1px solid white;
 }
 
-.accordion-button:is(.collapsed) {
-    background-color: transparent;
+#FAQ .accordion-button:is(.collapsed) {
+    background-color: #ACBCB7;
     box-shadow: none;
 }
-
 footer {
-    color: whitesmoke
-}
-
-footer span {
+    color: whitesmoke;
+    padding: 20px 0;
+  }
+  
+  footer span {
     color: #58A4B0;
-}
-
-footer p {
-    margin: 2px;
-    font-weight: lighter;
-    text-align: start;
-}
-footer div {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-}
-
-footer p a:hover {
-    opacity: .5;
-}
-
-footer p a {
-    text-decoration: none;
-    color: grey;
-    padding-right: 3px;
-}
+  }
+  
+  footer h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  .contact-item {
+    margin-bottom: 15px;
+  }
+    

@@ -1,16 +1,16 @@
 import React from "react";
 import './Main.css';
-import aboutImage from './images/About.svg';
+import aboutImage from './images/About.png';
 import mainImage from './images/main.png';
 import ruleImage from './images/Rules.png';
+import evaImage from './images/Evaluation.png';
 import faqImage from './images/Faq.png';
-import timeImage from './images/Timing.png';
 import contactImage from './images/Contact.png';
 import eventImage from './images/Event.png';
 const Main = () => {
     return (<>
 
-        <main className="text-white-50 vh-80  text-center">
+        <main className="text-white-50 vh-100 text-center">
             <div id="logo">
                 <h1 className="pt-5">Innøveďa</h1>
                 <h6>&quot;Igniting Innovations, Celebrating Tradition&quot;</h6>
@@ -20,7 +20,7 @@ const Main = () => {
                 <ul class="d-flex justify-content-around mt-3">
                     <li class="p-2">
                         <a href="#About">
-                            <img src={aboutImage} alt="Event" />
+                            <img src={aboutImage} alt="About" />
                             <p>About us</p>
                         </a>
                     </li>
@@ -37,9 +37,9 @@ const Main = () => {
                         </a>
                     </li>
                     <li class="p-2">
-                        <a href="#Timing">
-                            <img src={timeImage} alt="Timing" />
-                            <p>Timing</p>
+                        <a href="#Evaluation">
+                            <img src={evaImage} alt="Evaluation" />
+                            <p>Evaluation</p>
                         </a>
                     </li>
                     <li class="p-2">
@@ -70,17 +70,16 @@ const Main = () => {
         </section>
 
         <section className="text-white text-center" id="Event">
-            <h2>Event</h2>
+            <h2>Event: Innoveda</h2>
             {/* <div id="ccXecell">
                 <img src={mainImage} alt="CodeChefXEcell" />
             </div> */}
             <p className="container">
                 Innoveda is a launchpad for startup minded innovators and tech enthusiasts to create disruptive solutions that address real-world problems.
             </p>
-            <aside className="container events text-start" id="Theme">
-                <h2>Theme's</h2>
+            <aside id="Theme" className="container events text-start">
+                <h3>Theme's:</h3>
                 <span className="p-4">Explore innovative solutions under various themes:</span>
-
                 <div class="p-4 row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
@@ -97,7 +96,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -105,7 +104,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -113,7 +112,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -121,7 +120,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -129,7 +128,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -137,7 +136,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -145,7 +144,7 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col">
                         <div class="card">
                             <div class="card-body">
@@ -153,14 +152,55 @@ const Main = () => {
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
             </aside>
             <aside id="Rule" className="container text-start mt-3 p-4">
-                <span>Participation Details and Rules</span>
-                <hr />
-                
+                <h3>Participation Rules:</h3>
+                <div class="container-fluid">
+                    <hr />
+                    <div class="row">
+                        <div class="col-3">Team Size:</div>
+                        <div class="col-9">1-4 members</div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-3">Constraint:</div>
+                        <div class="col-9">A partcipant can be part of only 1 team</div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-3">Bonus:</div>
+                        <div class="col-9">Extra Points will be awarded for showcasing the prototype</div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div class="col-3">Disqualification:</div>
+                        <div class="col-9">Any teams that violate these rules will be automatically disqualified.</div>
+                    </div><hr />
+
+                </div>
             </aside>
+
+            <aside id="Evaluation" className="container text-start mt-3 p-4">
+                <h3>Evaluation Criteria:</h3>
+                <div class="container-fluid">
+                    <div>Participants will be evaluated on the following criteria:</div>
+                    <hr />
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-3 text-center " id="Criteria">Impact</div>
+                        <div class="col-3 text-center " id="Criteria">Pitch</div>
+                        <div class="col-3 text-center " id="Criteria">Business Model</div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-5 text-center" id="Criteria">Scalablity</div>
+                        <div class="col-5 text-center " id="Criteria">Feasibility</div>
+                    </div>
+                    <hr />
+
+                </div>
+            </aside>
+
         </section>
 
 
@@ -202,29 +242,40 @@ const Main = () => {
             </div>
         </summary>
 
-
-
-        <footer className="text-center bg-black" id="Contact">
+        <footer className="text-center bg-black text-white" id="Contact">
             <h4>Contact Information</h4>
             <span>Reach out to us for any inquiries or support.</span><br /><br />
-            <div>
-                <p>Email:&nbsp;
-                    <a href="mailto:ecelladgitm@gmail.com" target="_blank"> ecelladgitm@gmail.com</a>
-                </p>
-                <p>Phone:&nbsp;
-                    <a href="tel:9899534496" target="_blank">Khushal Vashisth: 9899534496</a>
-                </p>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-6">
+                        <div>
+                            <p>Email:&nbsp;
+                                <a href="mailto:ecelladgitm@gmail.com" target="_blank">ecelladgitm@gmail.com</a>
+                            </p>
+                        </div>
+                        <div>
+                            <p>Email:&nbsp;
+                                <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank">codechef.adgitm@adgitmdelhi.ac.in</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div>
+                            <p>Phone:&nbsp;
+                                <a href="tel:9899534496" target="_blank">Khushal Vashisth: 9899534496</a>
+                            </p>
+                        </div>
+                        <div>
+                            <p>Phone:&nbsp;
+                                <a href="tel:9953930377" target="_blank">Mansi Sharma: 9953930377</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <p>Email:&nbsp;
-                    <a href="mailto:codechef.adgitm@adgitmdelhi.ac.in" target="_blank"> codechef.adgitm@adgitmdelhi.ac.in</a>
-                </p>
-                <p>Phone:&nbsp;
-                    <a href="tel:9953930377" target="_blank">Mansi Sharma: 9953930377</a>
-                </p>
-            </div>
-
         </footer>
+
+
     </>)
 };
 export default Main;
