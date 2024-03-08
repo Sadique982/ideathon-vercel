@@ -217,10 +217,10 @@ const Main = () => {
             <div className="container">
                 <h2>Frequently Asked Questions</h2>
                 <div className="accordion" id="faqAccordion">
-                    <div className="accordion-item">
+                    <div className="accordion-item mb-1">
                         <h2 className="accordion-header" id="heading1">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                Question
+                                Question-1
                             </button>
                         </h2>
                         <div id="collapse1" className="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
@@ -232,10 +232,10 @@ const Main = () => {
                         </div>
                     </div>
                     {/* Add more FAQ items as needed */}
-                    <div className="accordion-item">
+                    <div className="accordion-item mb-1">
                         <h2 className="accordion-header" id="heading1">
                             <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                Question
+                                Question-2
                             </button>
                         </h2>
                         <div id="collapse2" className="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
@@ -247,6 +247,21 @@ const Main = () => {
                         </div>
                     </div>
                     {/* Add more FAQ items as needed */}
+                    <div className="accordion-item mb-1">
+                        <h2 className="accordion-header" id="heading1">
+                            <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                Question-3
+                            </button>
+                        </h2>
+                        <div id="collapse3" className="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#faqAccordion">
+                            <div className="accordion-body">
+                                <p>
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur aperiam obcaecati in reprehenderit perferendis! Repellat autem nemo atque dolorem eligendi aliquam sed error molestias possimus dolore laboriosam in, provident inventore!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* Add more FAQ items as needed */}                    
                 </div>
             </div>
         </summary>
@@ -283,7 +298,6 @@ const Main = () => {
                 </div>
             </div>
         </footer>
-
 
     </>)
 };
