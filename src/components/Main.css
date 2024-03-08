@@ -110,22 +110,17 @@ section p {
     }
 }
 
+
 #Event img {
     height: 250px;
     object-fit: cover;
 }
 
-#Evaluation div, #Rule div{
+#Evaluation div, #Rule div, #Theme div {
     color: #587D71;
 }
-#Evaluation #Criteria {
-    margin: 3%;
-    padding: 25px;
-    background-color: #2B242D;
-    border-radius: 10px;
-}
 
-#Theme div>div>div {
+#Evaluation div>div>div>div , #Theme div>div>div {
         background-color: #2B242D;
         border-radius: 10px;
         color: #587D71;

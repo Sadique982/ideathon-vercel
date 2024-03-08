@@ -2,8 +2,6 @@ import React from "react";
 import './Main.css';
 import aboutImage from './images/About.png';
 import mainImage from './images/main.png';
-import ruleImage from './images/Rules.png';
-import evaImage from './images/Evaluation.png';
 import faqImage from './images/Faq.png';
 import contactImage from './images/Contact.png';
 import eventImage from './images/Event.png';
@@ -27,19 +25,7 @@ const Main = () => {
                     <li class="p-2">
                         <a href="#Event">
                             <img src={eventImage} alt="Event" />
-                            <p>Our Event</p>
-                        </a>
-                    </li>
-                    <li class="p-2">
-                        <a href="#Rule">
-                            <img src={ruleImage} alt="Rules" />
-                            <p>Rules</p>
-                        </a>
-                    </li>
-                    <li class="p-2">
-                        <a href="#Evaluation">
-                            <img src={evaImage} alt="Evaluation" />
-                            <p>Evaluation</p>
+                            <p>Event detail</p>
                         </a>
                     </li>
                     <li class="p-2">
@@ -79,7 +65,7 @@ const Main = () => {
             </p>
             <aside id="Theme" className="container events text-start">
                 <h3>Theme's:</h3>
-                <span className="p-4">Explore innovative solutions under various themes:</span>
+                <div className="container">Explore innovative solutions under various themes:</div>
                 <div class="p-4 row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
@@ -160,23 +146,23 @@ const Main = () => {
                 <div class="container-fluid">
                     <hr />
                     <div class="row">
-                        <div class="col-3">Team Size:</div>
-                        <div class="col-9">1-4 members</div>
+                        <div class="col-5">Team Size:</div>
+                        <div class="col-7">1-4 members</div>
                     </div>
                     <hr />
                     <div class="row">
-                        <div class="col-3">Constraint:</div>
-                        <div class="col-9">A partcipant can be part of only 1 team</div>
+                        <div class="col-5">Constraint:</div>
+                        <div class="col-7">A partcipant can be part of only 1 team</div>
                     </div>
                     <hr />
                     <div class="row">
-                        <div class="col-3">Bonus:</div>
-                        <div class="col-9">Extra Points will be awarded for showcasing the prototype</div>
+                        <div class="col-5">Bonus:</div>
+                        <div class="col-7">Extra Points will be awarded for showcasing the prototype</div>
                     </div>
                     <hr />
                     <div class="row">
-                        <div class="col-3">Disqualification:</div>
-                        <div class="col-9">Any teams that violate these rules will be automatically disqualified.</div>
+                        <div class="col-5">Disqualification:</div>
+                        <div class="col-7">Any teams that violate these rules will be automatically disqualified.</div>
                     </div><hr />
 
                 </div>
@@ -187,17 +173,43 @@ const Main = () => {
                 <div class="container-fluid">
                     <div>Participants will be evaluated on the following criteria:</div>
                     <hr />
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-3 text-center " id="Criteria">Impact</div>
-                        <div class="col-3 text-center " id="Criteria">Pitch</div>
-                        <div class="col-3 text-center " id="Criteria">Business Model</div>
+                    <div class="p-4 row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-center ">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title text-center ">Impact</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title text-center ">Pitch</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title text-center ">Business Model</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title text-center ">Scalability</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h6 class="card-title text-center ">Feasibility</h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-5 text-center" id="Criteria">Scalablity</div>
-                        <div class="col-5 text-center " id="Criteria">Feasibility</div>
-                    </div>
-                    <hr />
-
                 </div>
             </aside>
 
@@ -279,3 +291,7 @@ const Main = () => {
     </>)
 };
 export default Main;
+
+
+
+
